@@ -1,0 +1,42 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>ToDoList</title>
+            <link rel="stylesheet" href="css/mystyle.css">
+            <!-- <link rel="stylesheet" href="/css/homestyle.css"> -->
+            <link rel="stylesheet" href="/css/bootstrap.min.css">
+            
+        </head>
+        
+        <body>
+          <!-- Image and text -->
+              <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                  <img src="images/icon1.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                  <h3>ToDo List</h3>
+                </a>
+              </nav>
+              <div>
+                <p><h2 class="caption">𝐌𝐚𝐤𝐞 𝐲𝐨𝐮𝐫 𝐏𝐥𝐚𝐧𝐬 𝐢𝐧𝐭𝐨 𝐀𝐜𝐭𝐢𝐨𝐧𝐬....</h2></p>
+              </div>
+              <form class="form1" onsubmit="return checkValues()" action="mainpage.html">
+                <div class="form-group">
+                  <label for="username">Username:</label>
+                  <input type="text" class="form-control" id="username">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button id="submit" class="login-btn">Login</button>
+              </form> 
+              <script src="js/validate.js"></script> 
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+            
+        </body>
+        </html>
