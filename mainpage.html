@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main page</title>
+        <link rel="stylesheet" href="/css/mystyle.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">                 
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav" id="menu">
+                    <li class="nav-item active">
+                    <button class="btn" onclick="readValues()">To Do List</button>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">Log out</a>
+                    </li>                              
+              </ul>
+            </div>
+        </nav>
+        <div class="text-head">
+            <h1>My to-do list</h1>
+            
+        </div>
+        <!-- <label><input type="checkbox" name="demo"></label> -->
+        <div style="text-align:center;padding:1em 0;float:right;margin-top:40px"> <h4><a style="text-decoration:none;color:green;" href="#"><span style="color:gray;">Current local time in</span><br />Cochin, India</a></h4> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=Asia%2FKolkata" width="100%" height="90" frameborder="0" seamless></iframe> </div>
+
+        <div id="todolist">
+           <br>
+        </div> 
+        
+        <script src="js/fileRead.js"></script>
+
+        </body>
+    </html>

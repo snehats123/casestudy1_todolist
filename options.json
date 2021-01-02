@@ -1,0 +1,65 @@
+{
+  "options":[
+            {
+              "userId": 1,
+              "id": 1,
+              "title": "Pay water bill",
+              "completed": false
+            },
+            {
+              "userId": 1,
+              "id": 2,
+              "title": "Make a call to bank regarding the loan",
+              "completed": false
+            },
+            {
+              "userId": 1,
+              "id": 3,
+              "title": "Attend the official meeting at 10am",
+              "completed": false
+            },
+            {
+              "userId": 1,
+              "id": 4,
+              "title": "Birthday wish to Chinnu",
+              "completed": true
+            },
+            {
+              "userId": 1,
+              "id": 5,
+              "title": "Buy groceries",
+              "completed": false
+            },
+            {
+              "userId": 1,
+              "id": 6,
+              "title": "Visit manju's mom",
+              "completed": false
+            },
+            {
+              "userId": 1,
+              "id": 7,
+              "title": "ATM cash withrawal",
+              "completed": false
+            },
+            {
+              "userId": 1,
+              "id": 8,
+              "title": "Check mails",
+              "completed": true
+            },
+            {
+              "userId": 1,
+              "id": 9,
+              "title": "Prepare batter for Dosa",
+              "completed": false
+            },
+            {
+              "userId": 1,
+              "id": 10,
+              "title": "Turn off cooking gas",
+              "completed": true
+            }
+          ]
+}
+   
